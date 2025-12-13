@@ -25,8 +25,4 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
 // Auto-advance projects carousel
 document.addEventListener("DOMContentLoaded", function () {
   const myCarousel = document.getElementById("projectsCarousel");
-  const carousel = new bootstrap.Carousel(myCarousel, {
-    interval: 5000,
-    wrap: true,
-  });
 });
